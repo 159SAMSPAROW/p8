@@ -92,6 +92,74 @@ a {
   cursor: pointer;
 }
 
+.gpt3__callToAction {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 4rem;
+  border-radius: 1rem;
+  background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+}
+@media screen and (max-width: 650px) {
+  .gpt3__callToAction {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 550px) {
+  .gpt3__callToAction {
+    margin: 4rem 2rem;
+  }
+}
+.gpt3__callToAction-content > p {
+  font-weight: 500;
+  font-style: 12px;
+  line-height: 30px;
+}
+.gpt3__callToAction-content > h3 {
+  font-weight: 800;
+  font-style: 24px;
+  line-height: 45px;
+}
+@media screen and (max-width: 550px) {
+  .gpt3__callToAction-content > h3 {
+    font-style: 18px;
+    line-height: 32px;
+  }
+}
+.gpt3__callToAction-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+@media screen and (max-width: 650px) {
+  .gpt3__callToAction-btn {
+    margin: 2rem 0 0;
+  }
+}
+.gpt3__callToAction-btn > button {
+  background: #000000;
+  color: #FFFFFF;
+  border-radius: 40px;
+  font-weight: bold;
+  font-style: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+@media screen and (max-width: 550px) {
+  .gpt3__callToAction-btn > button {
+    font-style: 14px;
+    line-height: 28px;
+  }
+}
+
 .gpt3__features-container__feature {
   width: 100%;
   display: flex;
