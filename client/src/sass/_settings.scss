@@ -1,27 +1,32 @@
-$clr-bg: #040C18;
-$clr-footer: #031B34;
+$clr-bg: #040c18;
+$clr-footer: #031b34;
 $clr-blog: #042c54;
 
-$clr-text: #81AFDD;
-$clr-subtext: #FF8A71;
+$clr-text: #81afdd;
+$clr-subtext: #ff8a71;
 $font-family: 'Manrope', sans-serif;
 
-$gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-$gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+$gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+$gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
 
-@media screen and (max-width: 768px){
-    .section__padding {
-        padding: 4rem;
-    }
-    .section__margin {
-        margin: 4rem;
-    }
+.section__padding {
+  padding: 4rem 6rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 4rem;
+  }
+  @media screen and (max-width: 550px) {
+    padding: 4rem 1rem;
+  }
 }
-@media screen and (max-width: 550px){
-    .section__padding {
-        padding: 4rem 2rem;
-    }
-    .section__margin {
-        margin: 4rem 2rem;
-    }
+.section__margin {
+  margin: 4rem 6rem;
+
+  @media screen and (max-width: 768px) {
+    margin: 4rem;
+  }
+  @media screen and (max-width: 550px) {
+    margin: 4rem 1rem;
+  }
 }
+
