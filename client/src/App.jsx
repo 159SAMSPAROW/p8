@@ -9,7 +9,6 @@ import {
   WhatGPT3,
 } from './containers'
 
-
 const App = () => {
   return (
     <div className="App">

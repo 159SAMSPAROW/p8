@@ -1,64 +1,62 @@
-.gpt3__callToAction{
+.gpt3__callToAction {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 4rem;
+  border-radius: 1rem;
+  background: $gradient-bar;
 
-    border: 1px solid white;
+  @media screen and (max-width: 650px) {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 550px) {
+    margin: 4rem 2rem;
+  }
+
+  &-content > p {
+    font-weight: 500;
+    font-style: 12px;
+    line-height: 30px;
+  }
+  &-content > h3 {
+    font-weight: 800;
+    font-style: 24px;
+    line-height: 45px;
+
+    @media screen and (max-width: 550px) {
+      font-style: 18px;
+      line-height: 32px;
+    }
+  }
+  &-btn {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
-    padding: 2rem;
-    margin: 4rem;
-    border-radius: 1rem;
-    background: $gradient-bar;
+    margin-left: 2rem;
 
     @media screen and (max-width: 650px) {
-        flex-direction: column;
-    }
-    @media screen and (max-width: 550px) {
-        margin: 4rem 2rem;
+      margin: 2rem 0 0;
     }
 
-    &-content > p{
-        font-weight: 500;
-        font-style: 12px;
-        line-height: 30px;
-
+    & > button {
+      background: #000000;
+      color: #ffffff;
+      border-radius: 40px;
+      font-weight: bold;
+      font-style: 18px;
+      line-height: 30px;
+      padding: 0.5rem 1rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      min-width: 150px;
+      @media screen and (max-width: 550px) {
+        font-style: 14px;
+        line-height: 28px;
+      }
     }
-    &-content > h3{
-        font-weight: 800;
-        font-style: 24px;
-        line-height: 45px;
-
-        @media screen and (max-width: 550px) {
-            font-style: 18px;
-            line-height: 32px;
-        }
-    }
-    &-btn{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 2rem;
-
-        @media screen and (max-width: 650px) {
-            margin: 2rem 0 0;
-        }
-
-        & > button{
-            background: #000000;
-            color: #FFFFFF;
-            border-radius: 40px;
-            font-weight: bold;
-            font-style: 18px;
-            line-height: 30px;
-            padding: 0.5rem 1rem;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            min-width: 150px;
-            @media screen and (max-width: 550px) {
-                font-style: 14px;
-                line-height: 28px;
-            }
-        }
-    }
+  }
 }

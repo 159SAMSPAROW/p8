@@ -10,10 +10,10 @@ const Header = () => {
           Let's Build Something amazing with GPT-3 Open AI
         </h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
-          cupiditate itaque placeat provident velit, nam, laborum accusantium,
-          sunt cumque quidem molestias aliquid deleniti sequi ratione quia.
-          Excepturi tenetur tempora accusantium.
+          Yet bed any for travelling assistance indulgence unpleasing. Not
+          thoughts all exercise blessing. Indulgence way everything joy
+          alteration boisterous the attachment. Party we years to order allow
+          asked of.
         </p>
         <div className="gpt3__header-content__input">
           <input type="email" placeholder="Your Email Address" />
