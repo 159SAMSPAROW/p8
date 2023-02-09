@@ -15,37 +15,37 @@ a {
 .gradient__bg {
   background: -moz-radial-gradient(
     circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
+    rgba(0, 40, 83, 1) 0% ,
     rgba(4, 12, 24, 1) 25%
-  );
+  ) !important;
 
   /* safari 5.1+,chrome 10+ */
   background: -webkit-radial-gradient(
     circle at 3% 25%,
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
-  );
+  ) !important;
 
   /* opera 11.10+ */
   background: -o-radial-gradient(
     circle at 3% 25%,
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
-  );
+  ) !important;
 
   /* ie 10+ */
   background: -ms-radial-gradient(
     circle at 3% 25%,
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
-  );
+  ) !important;
 
   /* global 92%+ browsers support */
   background: radial-gradient(
     circle at 3% 25%,
     rgba(0, 40, 83, 1) 0%,
     rgba(4, 12, 24, 1) 25%
-  );
+  ) !important;
 }
 .gradient__text {
   background: $gradient-text;

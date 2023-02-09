@@ -48,7 +48,7 @@ a {
   /* opera 11.10+ */
   /* ie 10+ */
   /* global 92%+ browsers support */
-  background: radial-gradient(circle at 3% 25%, rgb(0, 40, 83) 0%, rgb(4, 12, 24) 25%);
+  background: radial-gradient(circle at 3% 25%, rgb(0, 40, 83) 0%, rgb(4, 12, 24) 25%) !important;
 }
 
 .gradient__text {
@@ -59,17 +59,7 @@ a {
 }
 
 .scale-up-center {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-
-@-webkit-keyframes scale-up-center {
-  0% {
-    transform: scale(0.5);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 @keyframes scale-up-center {
   0% {
@@ -106,13 +96,13 @@ a {
   font-weight: bold;
   font-size: 11.649px;
   line-height: 35px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .gpt3__blog-container_article-content > div > h3 {
   font-weight: 800;
   font-size: 25.11px;
   line-height: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 5rem;
   cursor: pointer;
 }
@@ -124,7 +114,7 @@ a {
 }
 .gpt3__blog-container_article-content > p:last-child {
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .gpt3__brand {
@@ -194,7 +184,7 @@ a {
 }
 .gpt3__callToAction-btn > button {
   background: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 40px;
   font-weight: bold;
   font-style: 18px;
@@ -833,19 +823,15 @@ a {
   margin-bottom: 2rem;
 }
 
-.gpt3__whatgpt3-feature,
-.gpt3__features-container__feature {
-  margin: 0;
-}
 @media screen and (max-width: 650px) {
   .gpt3__whatgpt3-feature,
-.gpt3__features-container__feature {
+  .gpt3__features-container__feature {
     flex-direction: column;
   }
 }
 @media screen and (max-width: 350px) {
   .gpt3__whatgpt3-feature,
-.gpt3__features-container__feature {
+  .gpt3__features-container__feature {
     margin: 1rem 0;
     min-width: 100%;
   }
