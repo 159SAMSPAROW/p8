@@ -48,7 +48,7 @@ a {
   /* opera 11.10+ */
   /* ie 10+ */
   /* global 92%+ browsers support */
-  background: radial-gradient(circle at 3% 25%, rgb(0, 40, 83) 0%, rgb(4, 12, 24) 25%) !important;
+  background: radial-gradient(circle at 3% 25%, rgb(0, 40, 83) 0%, rgb(4, 12, 24) 25%);
 }
 
 .gradient__text {
